@@ -6,6 +6,13 @@ div{
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width=1000px){
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 p{
     padding:3em 5em 3em 5em;
 }
@@ -18,12 +25,9 @@ p{
     background-color: orange;
     transition-duration: 5s;
 }
-@media screen and (max-width=1000px){
-    img{
-        flex-direction=column
-        width: 200px;
-        height: 150px;
-    }
+img{
+    width: 200px;
+    height: 150px;
 }
 #montexte:hover{
     transition-duration: 5s;
